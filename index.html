@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ee44f9da05.js" crossorigin="anonymous"></script>
+    <title>Fruits</title>
+</head>
+
+<body class="container">
+
+    <main class="container-fluid">
+        <div class="search d-flex rounded-4 shadow-none p-2 my-3">
+            <form class="d-flex align-items-center ps-3" role="search">
+                <i class="fa-solid fa-magnifying-glass" style="color: #666666"></i>
+                <input class="form-control border-0 me-2" type="search" placeholder="Search fruit"
+                    aria-label="Search">
+            </form>
+        </div>
+        <!-- Kai nerastas vaisius -->
+        <div class="no-fruit text-start my-2" style="display: none">
+            <h5>Nothing found...</h5>
+        </div>
+        <!-- Visu vaisiu isvedimas -->
+        <div class="all-fruits">
+            <div class="d-grid col-6 mx-auto">
+                <button class="btn btn-primary btn-lg rounded-4 p-2 my-3" type="button">All fruits</button>
+            </div>
+            <!-- Visi patiekalai pagal raktinį žodį -->
+            <div class="fruits card-deck row row-cols-2 row-cols-lg-3 row-cols-xl-5 row-cols-xxl-7 g-3">
+                <!-- <article class="col">
+                    <div class="card border-0 rounded-4">
+                        <div class="card-body text-center">
+                            <p>bla bla bla</p>
+                        </div>
+                    </div>
+                </article> -->
+            </div>
+        </div>
+        <!-- Vieno vaisiaus kortele -->
+        <div class="one-fruit">
+            <!-- <article class=" d-flex justify-content-center my-5">
+                <div class="col-12 col-md-7 border-0">
+                    <div class="fruit col text-center">
+                        <h1 class=" mb-4">Orange</h1>
+                        <table class="table">
+                            <tr>
+                                <th>Protein</th>
+                                <th>Calories</th>
+                                <th>Fat</th>
+                                <th>Carbs</th>
+                                <th>Sugar</th>
+                            </tr>
+                            <tr>
+                                <td class="prot">450g</td>
+                                <td class="cal">220g</td>
+                                <td class="fat">100g</td>
+                                <td class="carbs">49g</td>
+                                <td class="sugar">18g</td>
+                            </tr>
+                        </table>
+                        <ul class="text-start p-0">
+                            <li>aaa</li>
+                            <li>&bull;</li>
+                            <li>bbb</li>
+                            <li>&bull;</li>
+                            <li>ccc</li>
+                        </ul>
+                    </div>
+                </div>
+            </article> -->
+        </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script> <!--visada apacioj -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

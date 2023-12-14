@@ -1,0 +1,117 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.card {
+    background: #FFF8EB;
+    height: 120px;
+}
+
+/* Teksto splava h1,h5,h6 elementams */
+h1,h5,h6{
+    color: #FF8473;
+}
+
+/* Teksto dydzio keitimas (responsive) */
+h5{
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    h5{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    h5{
+        font-size: 22px;
+    }
+}
+
+
+h6{
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    h6{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    h6{
+        font-size: 18px;
+    }
+}
+
+
+/* Mygtuku ir formos spalvu keitimas */
+
+.search, .form-control{
+    background: #F4F4F4;
+    color: #666666;
+    font-size: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #F4F4F4;
+}
+
+.btn{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    color: #ffffff;
+    /* font-size: 14px;
+    letter-spacing: 0.14px; */
+    background: #91C788;
+    border: none;
+    --bs-btn-border-color: #91C788;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #77a56e;
+    --bs-btn-hover-border-color: #77a56e;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #5b7f54;
+    --bs-btn-active-bg: #5b7f54;
+    --bs-btn-active-border-color: none;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #8e918d;
+}
+
+th, td {
+    padding: 50px;
+}
+
+.table tbody th{
+    color: #FF8473;
+    background-color: #FFF8EB;
+    border-color: #FFF8EB;
+    text-align: start;
+    font-size: 16px;
+    padding: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.table tbody td {
+    color: #FF8473;
+    background-color: #FFF8EB;
+    border-color: #FFF8EB;
+    text-align: start;
+    font-size: 24px;
+    padding: 0;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+li{
+    display: inline;
+    color: #FF8473;
+}
